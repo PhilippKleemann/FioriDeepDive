@@ -1,0 +1,30 @@
+{
+	"customers": [{
+		"customerid": "1000001",
+		"firstname": "Carl",
+		"lastname": "Benz",
+		"title": "",
+		"gender": "männlich",
+		"email": "carl.benz@daimler.com",
+		"phone": "0711/1 17",
+		"website": "www.mercedes-benz.com"
+	}, {
+		"customerid": "1000002",
+		"firstname": "Gottlieb",
+		"lastname": "Daimler",
+		"title": "",
+		"gender": "männlich",
+		"email": "gottlieb.daimler@daimler.com",
+		"phone": "0711/1 17",
+		"website": "www.daimler.com"
+	}, {
+		"customerid": "1000003",
+		"firstname": "Wilhelm",
+		"lastname": "Maybach",
+		"title": "Dr.",
+		"gender": "männlich",
+		"email": "wilhelm.maybach@daimler.com",
+		"phone": "0711/1 17",
+		"website": "www.daimler.com"
+	}]
+}
