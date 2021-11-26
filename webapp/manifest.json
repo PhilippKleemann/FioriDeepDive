@@ -19,7 +19,9 @@
 				"type": "OData",
 				"settings": {
 					"localUri": "localService/metadata.xml",
-					"annotations": ["hofioannotations"]
+					"annotations": [
+						"hofioannotations"
+					]
 				}
 			},
 			"hofioannotations": {
@@ -96,9 +98,11 @@
 			}
 		},
 		"resources": {
-			"css": [{
-				"uri": "css/style.css"
-			}]
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
 		},
 		"routing": {
 			"config": {
@@ -110,23 +114,33 @@
 				"controlId": "app",
 				"clearControlAggregation": false
 			},
-			"routes": [{
-				"name": "RouteApp",
-				"pattern": "RouteApp",
-				"target": ["TargetApp"]
-			}, {
-				"name": "Main",
-				"pattern": "",
-				"titleTarget": "",
-				"greedy": false,
-				"target": ["Main"]
-			}, {
-				"name": "Customer",
-				"pattern": "customer/{customerid}",
-				"titleTarget": "",
-				"greedy": false,
-				"target": ["Customer"]
-			}],
+			"routes": [
+				{
+					"name": "RouteApp",
+					"pattern": "RouteApp",
+					"target": [
+						"TargetApp"
+					]
+				},
+				{
+					"name": "Main",
+					"pattern": "",
+					"titleTarget": "",
+					"greedy": false,
+					"target": [
+						"Main"
+					]
+				},
+				{
+					"name": "Customer",
+					"pattern": "customer/{customerid}",
+					"titleTarget": "",
+					"greedy": false,
+					"target": [
+						"Customer"
+					]
+				}
+			],
 			"targets": {
 				"TargetApp": {
 					"viewType": "XML",
@@ -147,5 +161,9 @@
 				}
 			}
 		}
+	},
+	"sap.platform.abap": {
+		"uri": "/sap/bc/ui5_ui5/sap/zhofio_14/webapp",
+		"_version": "1.1.0"
 	}
 }
